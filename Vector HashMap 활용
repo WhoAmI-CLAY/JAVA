@@ -1,0 +1,19 @@
+- Vector -
+boolean add(E element) : 백터의 맨 뒤에 element 추가
+void add(int index, E element) : 인덱스 index에 element를 삽입
+void clear() : 백터의 모든 요소를 삭제
+boolean contains(E element) : 백터가 지정된 객체를 포함하고 있으면 true 리턴
+E get(int index) : 인덱스 index의 요소를 반환한다.
+int indexOf(Object o) : o와 같은 첫 번째 요소의 인덱스를 반환한다. 없으면 -1을 반환한다.
+E remove(int index) : 인덱스 index의 요소를 삭제한다.
+int size() : 백터의 길이를 반환한다.
+
+- HashMap -
+void clear() : HashMap의 모든 요소를 삭제한다.
+boolean containsKey(Object key) : 지정된 key를 포함하고 있으면 true 리턴
+boolean containsValue(Object value) : 저장된 value를 포함하고 있으면 true 리턴
+V get(Object key) : 저장된 key값이 있으면 value를 리턴 없으면 null을 반환한다
+V put(Ojbect key, Objecet value) : key value를 새롭게 저장
+int size() : 크기를 반환
+V remove(Object key) : 해당 키와 값을 모두 삭제한다.
+V keySet() : 모든 key를 배열의 형태로 반환한다.
